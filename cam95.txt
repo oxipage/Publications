@@ -1,0 +1,15 @@
+The Design of a New FPGA Architecture
+Anthony Stansfield and Ian Page. 
+A description of the new CAM-based FPGA architecture
+
+A new Field Programmable Gate Array (FPGA) architecture is described.
+This architecture includes a number of novel features not found in
+currently available FPGAs. It is believed to offer a significantly
+improved logic density in some common applications.
+
+This paper describes the development of the FPGA and looks at the
+mapping onto it of some interesting application circuit elements. The
+design is discussed in approximately chronological order which allows
+us to explain other options which were considered and rejected during
+the development process.
+

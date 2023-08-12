@@ -1,0 +1,17 @@
+This paper reports the design and programming of a parallel processor
+which is a coupled arrangement of a 256-processor SIMD machine and a
+42-processor MIMD machine. Many applications, particularly in the
+areas of computer graphics and vision, naturally exhibit extensive
+data-parallelism in some of the key algorithms and extensive
+control-parallelism in others. We have constructed a computing engine
+which encompasses both a data-parallel computing paradigm in a 16 x 16
+SIMD array, and also a control-parallel paradigm in a MIMD network of
+transputers. The two parallel machines are closely coupled and the
+SIMD machine has a video output channel for the generation of
+real-time animations (with video input being added soon). The entire
+system is programmed in Occam 2 which will eventually be extended to
+include facilities specifically for certain array data types and
+operations handled in the SIMD machine.  This system is now allowing
+us to investigate dual paradigm algorithms effectively and we report
+some of the early results from using this novel parallel processor for
+applications in both graphics and vision.

@@ -1,0 +1,21 @@
+Reconfigurable Processors
+Ian Page
+An invited keynote address for the Heathrow PLD Conference, April 1995.
+
+We believe that radical changes are set to affect many aspects of
+computer architecture.  The force behind the changes is the
+newly-emerging technology of dynamically reconfigurable
+hardware. Dynamically Programmable Gate Array (DPGA) chips are today's
+most potent implementations of such hardware. Using them, hardware can
+be built in milliseconds under purely software control; they are early
+embodiments of truly general-purpose hardware.
+
+We argue that conventional microprocessors are a poor match for any
+particular application, though they support a wide range of
+applications quite well. We suggest that the solution is to use
+additional silicon to provide hardware which can be configured to
+support any application. By combining a conventional processor
+with a DPGA on a single chip, commodity pricing is maintained and yet
+the same part can be targetted effectively across a wide range of
+applications.
+

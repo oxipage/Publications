@@ -1,0 +1,24 @@
+Automatic Systems Synthesis
+Ian Page 
+A case study of a `smart sensor' interface
+
+
+This paper describes the experience of using our hardware compilation
+technology to design and build hardware to interface a set of sensors
+to the controlling computer of a robot system.  It is a common
+experience that producing hardware solutions for application problems
+is fraught with difficulties.  However, the progress of hardware and
+software technologies are now beginning to enable completely different
+ways of implementing systems. This is particularly true when hardware
+components of a system are implemented by dynamically reconfigurable
+FPGA (Field Programmable Gate Array) chips. In the Hardware
+Compilation Research Group at Oxford, we are investigating the
+automatic derivation of complete systems, including hardware and
+software components, from executable specifications. We are trying to
+make the implementation of hardware/software systems as much like
+programming as possible, thus reducing emphasis on the difficult
+issues of hardware design.  Here, we demonstrate the approach that our
+group is taking to designing and implementing parallel computing
+systems for time-critical applications by reference to one particular
+example.
+

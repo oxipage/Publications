@@ -1,0 +1,17 @@
+Constructing Hardware-Software Systems from a Single Description
+Ian Page
+
+The study of computing is split at an early stage between the separate
+branches that deal with hardware and software; there is also a
+corresponding split in later professional specialisation. This paper
+explores the essential unity of the two branches and attempts to point
+to a common framework within which hardware-software codesigns can be
+expressed as a single executable specification, reasoned about, and
+transformed into implementations.  We also describe a
+hardware/software co-design environment which has been built, and we
+show how designs can be realised within this environment. A rapid
+development cycle is achieved by using FPGAs to host the hardware
+components of the system. The architecture of a hardware platform for
+supporting experimental hardware/software co-designs is presented. A
+particular example of a real-time video processing application built
+using this design environment is also described.

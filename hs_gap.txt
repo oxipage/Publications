@@ -1,0 +1,20 @@
+Closing the Hardware/Software Gap
+Prof. C.A.R. Hoare and Ian Page
+Closing the hardware/software gap by algebraic transformations of programs
+(20 pages, written 13Dec93)
+
+
+The study of computing science is split at an early stage between the
+branches dealing separately with hardware and software; and there is a
+corresponding split in later professional specialisation. This paper
+explores the essential unity and overlap of the two branches. The basic
+concepts are those of occam, taken as a simple example of a high-level
+programming language; its notations may be translated by the laws of
+programming to the machine code of a conventional machine.  Almost
+identical transformations can produce the networks of gates and
+flip-flops which constitute a hardware design. These insights are being
+exploited in hybrid systems, implemented partly in hardware and partly
+in software. A TRAM-standard printed circuit board called HARP has been
+constructed for such applications. It links a transputer by shared
+memory with a commercial Field Programmable Gate Array. Prospects for
+application are discussed. 

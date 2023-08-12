@@ -1,0 +1,23 @@
+Parametrised Processors
+Ian Page
+Presented at the September'93 International Workshop on FPGAs at Oxford
+(13 pages, written 27Aug93)
+
+
+This paper reports work on the automatic generation of microprocessors
+to suit particular applications.  We use our own hardware compilation
+system to produce synchronous hardware implementations of parallel
+programs and have constructed platforms incorporating FPGA and
+transputer components to host such implementations. Our chosen
+language, Handel, is essentially a subset of occam with as few
+extensions as  necessary to address the special nature of hardware
+implementations.
+The system reported here can take a Handel program and, rather than
+mapping it directly to hardware, will first transform it into a custom
+microprocessor, expressed as another Handel program, and a machine code
+program. The hardware compiler is then invoked to construct the
+resulting application-specific microprocessor. This approach may have
+benefits for applications where the kernel, or `inner loop', is too
+complex to be implemented as parallel hardware, but where a speed
+increase beyond that possible with off-the-shelf microprocessors is
+desired.

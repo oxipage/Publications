@@ -1,0 +1,29 @@
+This paper describes a hardware solution to the problem of updating
+bitmap displays very rapidly.  Starting from requirements of the
+man-machine interface of a powerful personal computing system, it is
+seen that it is essential to have hardware support for the `RasterOp'
+graphics algorithm which operates on two-dimensional (rectangular)
+bitmaps.  The DisArray hardware employs an array of 256 1-bit
+processor/memory pairs in a 16 x 16 configuration, thus
+directly supporting the manipulation of two-dimensional bitmaps.
+
+A separate, conventional, bit-slice processor provides the array
+instruction sequence to execute RasterOp and other graphics algorithms
+(such as polygon filling).  Video data is asynchronously extracted
+from array memory using a double buffering scheme.
+
+The system can be used in a `display list' mode in which DisArray
+continuously interprets an applications-oriented data structure which
+describes the screen layout in terms of windows, text strings and
+pictures. This operation is fast enough to support animation of a
+complex screen layout with no overhead whatever on the applications
+software which only operates on the high-level intermediate data
+structure.
+
+In future enhancements to the current system we hope to increase the
+processing speed still further and to add real-time video data input
+into array processor memory. This would allow us to perform some image
+processing and pattern recognition tasks and assess the machine's
+relevance for these tasks also. We also wish to investigate the use of
+the array processor as a host for functional programming environments.
+

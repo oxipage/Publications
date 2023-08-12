@@ -1,0 +1,19 @@
+Compiling Occam into Hardware
+Ian Page and Wayne Luk
+
+We describe a compiler which maps programs expressed in a subset of
+occam into netlist descriptions of parallel hardware.  Using
+Field Programmable Gate Arrays to implement such netlists,
+problem specific hardware can be generated entirely by a software
+process.  Inner loops of time consuming programs can be implemented
+as hardware and the less intensively used parts of the program can be
+mapped into machine code by a conventional compiler.  Software
+investment is protected since the same program can run entirely in
+software, entirely in hardware, or in a mixture of both.  A single
+program can thus result in many implementations across a potentially
+wide cost/performance range.  The compilation system has been used to
+generate inner loops, hardware interfaces to real world devices,
+systolic arrays, and complete microprocessors.  In the near future we
+hope to have a proven version of the compiler, enabling us
+automatically to generate provably correct hardware implementations,
+including microprocessors, from higher level specifications.

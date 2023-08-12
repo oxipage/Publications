@@ -1,0 +1,32 @@
+Special Report on Automated Codesign
+Ian Page
+Prepared for New Electronics and published in shortened form
+13 Dec 1994. (6 pages, written Oct94)
+
+It has always been possible, and sometimes necessary, to create
+special purpose hardware solutions to some computing problems.  The
+prime motivation for doing this is when low cost, general purpose
+solutions, typically using microprocessors, do not have the
+performance required by the application. However the development of
+such hardware solutions is not for the faint hearted.  Development
+costs are usually high and timescales can be very long, making this an
+unattractive option where the need for high performance does not make
+it unavoidable.
+
+However, the emergence of Field Programmable Gate Array (FPGA) chips
+is rapidly changing the nature of hardware implementations, since
+hardware can be constructed in milliseconds by loading parametrisation
+data into FPGAs.  If this hardware innovation is coupled with
+high level tools for designing the hardware configurations, then it is
+possible to reduce the entire hardware design to a purely software
+process. Additionally, where it is possible to standardise on a
+platform using a fixed number of FPGA and other VLSI components, it is
+possible to render the entire hardware design and implementation
+to a purely software process.
+
+Over the last four years my Hardware Compilation Research Group in the
+Computing Laboratory at Oxford University has been working to that
+end, and we have developed a range of software tools and hardware
+platforms which allows us to create new hardware based solutions,
+sometimes in only a few hours.
+

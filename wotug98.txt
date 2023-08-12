@@ -1,0 +1,10 @@
+ASPIRE Project (Oxford/ARM/Atmel)
+Advanced Silicon Prototyping in a Reconfigurable Environment
+M. Aubury, I. Page, D. Plunkett, M. Sauer, and J. Saul. 
+
+A flow is proposed which offers a programming approach to the systems
+design of application specific micro-controllers. Tools have been
+developed for compilation and co-simulation, and a reconfigurable
+board has been designed which can be used for rapid prototyping. The
+final design can be compiled into a structural VHDL netlist for a
+standard cell ASIC process.

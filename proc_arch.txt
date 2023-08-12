@@ -1,0 +1,14 @@
+Reconfigurable Processor Architectures
+Ian Page
+
+No particular application is well-supported by a conventional
+microprocessor which has a pre-determined set of functional units.
+This is particularly true in highly dynamic areas, such as multimedia,
+communications and other embedded systems. We suggest that additional
+silicon is used to provide hardware which can be dynamically
+configured to support any application. By combining a
+conventional microprocessor and FPGA reconfigurable logic on one chip,
+commodity pricing is maintained and yet the same part can effectively
+support a wide range of applications. A novel FPGA architecture is
+outlined which is particularly suitable for this style of
+implementation.
